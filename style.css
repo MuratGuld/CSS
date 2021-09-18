@@ -1,0 +1,33 @@
+/*The default body margin has been changed to 0 to achieve exact measurements.*/
+body {
+    margin: 0px;
+}
+
+/*A red background area is created for the flag background*/
+#section-1 {
+    top: 0px;
+    left: 0px;
+    background-color: red;
+    height: 512px;
+    width: 512px;
+}
+
+/*A horizontal white area is placed on the red area as absolute*/
+#section-2 {
+    position: absolute;
+    left: 96px;
+    top: 208px;
+    background-color: white;
+    height: 96px;
+    width: 320px;
+}
+
+/*A vertical white area is placed on the red area as absolute*/
+#section-3 {
+    position: absolute;
+    left: 208px;
+    top: 96px;
+    background-color: white;
+    height: 320px;
+    width: 96px;
+}
