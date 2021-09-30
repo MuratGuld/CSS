@@ -1,0 +1,195 @@
+/* I made a fixed header. That will be always seen */
+.header {
+    position: fixed;
+    top: 0;
+    padding: 5px;
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+section#section1 {
+    margin-top: 300px;
+    padding-bottom: 200px;
+}
+
+img#image1 {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    filter: grayscale(50%);
+    opacity: 0.8;
+    background-color: white;
+
+}
+
+/* I used z-index to make my picture over other image */
+img#image2 {
+    border-radius: 100%;
+    width: 14%;
+    position: absolute;
+    top: 110px;
+    left: 100px;
+    z-index: 2;
+    filter: drop-shadow(18px 18px 20px white);
+    opacity: 0.98
+}
+
+/* I used for h1 a special colour */
+h1#welcome {
+    font-size: 100px;
+    text-align: right;
+    font-style: italic;
+    color: rgb(93,109,133);
+    font-family: 'Courier New', monospace;
+    padding-right: 50px;
+    transform: 1sn;
+}
+
+div#myNav {
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+    float: right;
+    background-color: white;
+}
+
+/* I generated a links that they are seen like button */
+div#myNav a {
+
+    color: white;
+    font-size: 20px;
+    background-color: rgb(93,109,133);
+    border-radius: 5px;
+    padding: 2px 40px;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+
+/* When you come hover a link, that will change color etc */
+div#myNav a:hover {
+
+    color: rgb(93,109,133);
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: white;
+    border: 1px solid  rgb(93,109,133);
+    border-radius: 5px;
+    padding: 2px 40px;
+    text-decoration: none;
+}
+
+h2#brief {
+    font-size: 25px;
+    text-align: right;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(93,109,133);
+    font-family: 'Courier New', monospace;
+    padding-right: 50px;
+    width: 60%;
+    float: right;
+}
+
+section#about {
+    font-size: 30px;
+    clear: both;
+    padding-top: 290px;
+    letter-spacing: 5px;
+    line-height: 60px;
+}
+
+section#about span {
+    color: blue
+}
+
+section#about h3 {
+    font-family: 'Courier New', monospace;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(93,109,133);
+}
+
+
+section#education, section#children,section#hobbies {
+    padding-top: 290px;
+}
+
+.lastSection {
+    padding-top: 290px;
+}
+
+section:last-child {
+    margin-bottom: 500px;
+}
+
+section#education h3, section#children h3, section#hobbies h3, section#software h3 {
+    font-family: 'Courier New', monospace;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(93,109,133);
+}
+
+#education table, th,tr,td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px 100px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.educationSection table tr:nth-child(1)
+{
+    background-color: rgb(130, 143, 163);
+
+}
+
+.childrenSection {
+    font-family: 'Courier New', monospace;
+    font-size: 60px;
+    letter-spacing: 5px;
+    line-height: 30px;
+}
+
+.childrenSection img {
+    width: 60%;
+    border-radius: 100%;
+}
+
+#children table {
+    border-color: white;
+}
+
+section:last-child {
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    line-height: 30px;
+    color: rgb(93,109,133);
+
+}
+
+section:last-child label {
+    width: 30%;
+}
+
+progress {
+    width: 40%;
+    height: 30px;
+}
+
+#hobbies img {
+    width: 150px;
+    border-radius: 100%;
+}
+
+#hobbies p {
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    line-height: 30px;
+    color: rgb(93,109,133);
+}
+

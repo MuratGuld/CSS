@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- I made a fixed header here. Here is also links to navigate sections -->
+    <header class="header">
+        <img id="image1" src="images/image2.jpg" alt="">
+        <img id="image2" src="images/image1.jpg" alt="">
+        <div id="myNav">
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#children">Children</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#software">Software</a>
+        </div>
+    </header>
+
+    <!-- That s my content area -->
+    <main>
+        <!-- I write here a brief about my web page with h1 and h2 tags-->
+        <section id="section1">
+            <h1 id="welcome">Welcome to My Page</h1>
+            <h2 id="brief">On this page, you will find information about me, my brief curriculum vitae, my education life, my children, my hobbies and my software knowledge.</h2>
+        </section>
+
+        <!-- That's my 'about me' section -->
+        <section id="about">
+            <h3>About Me</h3>
+            <p>
+                Hello!. My name is Murat Işık. I live in France. I was born <b>in 1990</b> in <i>Istanbul</i>. I completed my primary and secondary education in
+                Istanbul. I graduated from the <em>Ankara University</em> Public Administration in 2012. I worked as a manager in various companies. In 2015; have started to work in <u>an international company in France</u>. I am married. I have <span>a daughter</span>.
+            </p>
+        </section>
+
+        <!-- I used here a table to tell my educational background -->
+        <section id="education" class="educationSection">
+            <h3>Education</h3>
+            <table>
+                <tr>
+                    <th>Graduation Year</th>
+                    <th>School</th>
+                    <th>School Score</th>
+                    <th>City</th>
+                </tr>
+                <tr>
+                    <td>2004</td>
+                    <td>Atatürk Primary School</td>
+                    <td>5.00</td>
+                    <td>İstanbul</td>
+                </tr>
+                <tr>
+                    <td>2008</td>
+                    <td>Cumhuriyet High School</td>
+                    <td>4.90</td>
+                    <td>İstanbul</td>
+                </tr>
+                <tr>
+                    <td>2012</td>
+                    <td>Ankara University</td>
+                    <td>3.50</td>
+                    <td>Ankara</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- This area is about my child -->
+        <section id="children" class="childrenSection">
+            <h3>Children</h3>
+            <table>
+                <tr>
+                    <td>
+                        <p>
+                            I have a daughter. Her name is Lina. She is 6 years old. She goes to kindergarten.
+                        </p>
+                    </td>
+                    <td>
+                        <img src="images/image3.jpg" alt="">
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- This area is my hobbies section -->
+        <section id="hobbies">
+            <h3>Hobbies</h3>
+
+            <table>
+                <tr>
+                    <td>
+                        <img src="images/image4.png" alt="">
+                        <p>Basketball</p>
+                    </td>
+                    <td>
+                        <img src="images/image5.jpg" alt="">
+                        <p>Trekking</p>
+                    </td>
+                    <td>
+                        <img src="images/image6.jpg" alt="">
+                        <p>Reading</p>
+                    </td>
+                    <td>
+                        <img src="images/image7.jpg" alt="">
+                        <p>Photography</p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- I tell here my software background -->
+        <section id="software" class="lastSection">
+            <h3>Software</h3>
+
+            <div> <label for="file1">HTML &nbsp;</label>
+                <progress id="file1" value="60" max="100"> 60% </progress>
+            </div>
+            <div>
+                <label for="file2">CSS &nbsp;&nbsp;</label>
+                <progress id="file2" value="50" max="1000"> 50% </progress>
+            </div>
+            <div>
+                <label for="file3">JS &nbsp;&nbsp;&nbsp;    </label>
+                <progress id="file3" value="32" max="100"> 32% </progress>
+            </div>
+            <div>
+                <label for="file">Java &nbsp;</label>
+                <progress id="file4" value="10" max="100"> 10% </progress>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
