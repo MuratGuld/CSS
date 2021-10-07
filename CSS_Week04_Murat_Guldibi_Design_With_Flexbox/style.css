@@ -1,0 +1,261 @@
+/* I prevent the pge to be scrolled as x axis */
+body {
+    overflow-x: hidden;
+    background-color: #ebeeee;
+}
+
+/* I made the background image at top level z index */
+.background {
+    z-index: -5;
+    position: relative;
+}
+
+/* I used baloon class to make baloons */
+.baloon {
+    background-color: rgb(145, 220, 236);
+    border-radius: 100%;
+    position: absolute;
+}
+
+.baloon:hover {
+    background-color: rgb(78, 216, 247);
+}
+
+#baloon-1 {
+    height: 70px;
+    width: 70px;
+    top: 30px;
+    left: 200px;
+}
+
+
+#baloon-2 {
+    height: 90px;
+    width: 90px;
+    top: -30px;
+    right: 20px;
+}
+
+#baloon-3 {
+    height: 200px;
+    width: 200px;
+    top: 200px;
+    left: -60px;
+}
+
+#baloon-4 {
+    height: 300px;
+    width: 300px;
+    top: 300px;
+    right: -100px;
+
+}
+
+/* Here is small background */
+.small-background {
+    width: 260px;
+    height: 440px;
+    background-color: white;
+    z-index: 5;
+    box-shadow: -15px 10px 100px gray;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+}
+
+
+.blue-background {
+    position: relative;
+    background-color: rgb(88, 161, 230);
+    height: 28%;
+    overflow: hidden;
+}
+
+#baloon-5 {
+    position: absolute;
+    background-color: rgb(117, 176, 231);
+    height: 90px;
+    width: 90px;
+    top: 40px;
+}
+
+#baloon-6 {
+    position: absolute;
+    background-color: rgb(117, 176, 231);
+    height: 20px;
+    width: 20px;
+    top: 50px;
+    left: 170px;
+}
+
+#baloon-7 {
+    position: absolute;
+    background-color: rgb(117, 176, 231);
+    height: 40px;
+    width: 40px;
+    top: 20px;
+    right: -10px;
+}
+
+#baloon-5:hover,#baloon-6:hover,#baloon-7:hover {
+    background-color: rgb(185, 208, 230);
+}
+
+/* Here is conteiner section and that s at top z-index */
+.container {
+    width: 240px;
+    height: 420px;
+    z-index: 10;
+    position: absolute;
+    left: 41%;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons a {
+    text-decoration: none;
+    display: inline;
+    color: white;
+    margin: 10px -15px 0 -20px;
+}
+
+#top-icon i {
+    color: white;
+}
+
+.icons {
+    width: 80%;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+#profil-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+div img {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    display: block;
+    margin: -20px auto auto auto;
+}
+
+#camera-link {
+    margin-top: -50px;
+}
+
+#camera {
+    color: rgb(73, 168, 152);
+    font-size: 13px;
+    margin: 70px 0 0 -10px;
+}
+
+#information {
+    background-color: rgb(244, 253, 250);
+    width: 95%;
+    height: auto;
+    box-shadow: -5px 5px 1000px gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+article h1,h2,p {
+    font-size: 10px;
+    color: gray;
+    text-align: center;
+}
+
+article h1 {
+    font-size: 15px;
+    margin: 8px 0 -5px 0;
+}
+
+.article-i {
+    position: relative;
+    left: 170px ;
+}
+
+article div i {
+    color: gray;
+    font-size: 10px !important;
+    padding: 3px;
+}
+
+div h4 {
+    text-align: left;
+    color: gray;
+    font-size: xx-small;
+}
+
+#account {
+    background-color: rgb(244, 253, 250);
+    width: 95%;
+    height: auto;
+    box-shadow: -5px 5px 1000px gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#account span {
+    text-decoration: none;
+    text-align: left;
+    font-size: 0.7em;
+    color: gray;
+}
+
+.fas {
+    color: gray;
+    opacity: 0.7;
+    font-size: 10px;
+}
+
+#account-h2 {
+    position: relative;
+    top:-20px;
+    left:-60px
+}
+
+#privacy {
+    background-color: rgb(244, 253, 250);
+    width: 95%;
+    height: auto;
+    box-shadow: -5px 5px 1000px gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#privacy-h2 {
+    position: relative;
+    top:-20px;
+    left:-160px
+}
+
+#privacy .fas,.fab {
+    color: gray;
+    opacity: 0.7;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-left: -100px;
+}

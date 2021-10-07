@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- Balloons for background -->
+    <section class="background">
+        <div class="baloon" id="baloon-1"></div>
+        <div class="baloon" id="baloon-2"></div>
+        <div class="baloon" id="baloon-3"></div>
+        <div class="baloon" id="baloon-4"></div>
+    </section>
+
+    <!-- small backround on the container -->
+    <section class="small-background">
+        <div class="blue-background">
+            <span class="baloon" id="baloon-5"></span>
+            <span class="baloon" id="baloon-6"></span>
+            <span class="baloon" id="baloon-7"></span>
+        </div>
+    </section>
+
+    <!-- Container area -->
+    <section class="container">
+        <!-- I used two icons on the top -->
+        <div class="icons" id="top-icon">
+            <a href=""><i class="fas fa-angle-left"></i></a>
+            <a href=""><i class="fas fa-ellipsis-h"></i></a>
+        </div>
+
+        <!-- Here is informations about personel -->
+        <div id="information">
+            <div id="profil-image">
+                <img src="./images/image1.jpg" alt="">
+                <a href="" id="camera-link"><i id="camera" class="fas fa-camera-retro"></i></a>
+            </div>
+
+            <article>
+                <h1>Gaurav K</h1>
+                <h2>Visual Designer</h2>
+                <div class="article-i">
+                    <i class="fab fa-google"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-behance"></i>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, assumenda perspiciatis.</p>
+            </article>
+        </div>
+
+        <!-- I put here some icons about the account -->
+        <div id="account">
+            <h2 id="account-h2">ACCOUNT SETTINGS</h2>
+            <div>
+                <i class="fas fa-envelope"></i>
+                <span>Update Email Adress</span>
+                <i class="fas fa-chevron-right"></i>
+            </div>
+            <div>
+                <i class="fas fa-key"></i>
+                <span>Reset Password</span>
+                <i class="fas fa-chevron-right"></i>
+            </div>
+            <div>
+                <i class="fas fa-folder"></i>
+                <span>Update My Details</span>
+                <i class="fas fa-chevron-right"></i>
+            </div>
+            <div>
+                <i class="fas fa-sign-out-alt"></i>
+                <span>Logout</span>
+                <i class="fas fa-chevron-right"></i>
+            </div>
+        </div>
+
+        <!-- Privacy section -->
+        <div id="privacy">
+            <h2 id="privacy-h2">PRIVACY SETTINGS</h2>
+            <i class="fas fa-copy"></i>
+            <i class="fas fa-search"></i>
+            <i class="fab fa-digital-ocean"></i>
+            <i class="fas fa-user-alt"></i>
+        </div>
+    </section>
+</body>
+
+</html>
