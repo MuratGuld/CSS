@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* This area keeps all the page*/
+.container {
+    width: 100vw;
+    height: 50vh;
+    background-color: #F7F3D7;
+    border-bottom: 1px solid #ECA03D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*  I used a box prototype for box-1 items  */
+.box {
+    width: 24vw;
+    height: 38vh;
+    margin: 0px 0.4vw;
+}
+/* Here I used flex to center inner items */
+.box-1 {
+    background-color: #62306D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cut-square {
+    background-color: #F7EC7D;
+    width: 6vw;
+    height: 14vh;
+}
+
+.cut-square-1 {
+    border-radius: 0 0 45% 45%;
+    align-self: flex-end;
+    margin-bottom: 5vh;
+}
+
+.cut-square-2 {
+    border-radius: 45% 45% 0 0;
+    align-self: flex-start;
+    margin-top: 5vh;
+}
+
+.cut-square-3 {
+    border-radius: 0 0 45% 45%;
+    align-self: flex-end;
+    margin-bottom: 5vh;
+}
+/* Here is flex used to center quarterss */
+.box-2 {
+    background-color: #E3516D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* I used a container in box-2 to center and limit all quarters */
+.quarter-container {
+    width: 13vw;
+    height: 24vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quarter {
+    width: 6vw;
+    height: 12vh;
+}
+
+.quarter-1 {
+    background-color: #51B5A9;
+    border-radius: 100% 0 0 0;
+}
+
+.quarter-2 {
+    background-color: #FADE8B;
+    border-radius: 0 100% 0 0;
+}
+
+.quarter-3 {
+    background-color: #F7F3D7;
+    border-radius: 0 0 0 100%;
+}
+
+.quarter-4 {
+    background-color: #E3516E;
+    border-radius: 0 0 100% 0;
+}
+/* Here is flex used to center items */
+.box-3 {
+    background-color: #191210;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Here is also container used to limit inner items */
+.ring-container {
+    width: 18vw;
+    height: 17vh;
+    display: flex;
+}
+
+.ring-1 {
+    width: 32%;
+    height: 36%;
+    background-color: #ECA03D;
+    border-radius: 0% 0% 100vh 100vh;
+    margin: 8vh -1.19vw 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ring-1-inner {
+    width: 58%;
+    height: 58%;
+    background-color: #191210;
+    border-radius: 0% 0% 100vh 100vh;
+
+}
+
+.ring-2 {
+    width: 50%;
+    height: 100%;
+    background-color: #ECA03D;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+
+.ring-2-inner {
+    width: 69%;
+    height: 69%;
+    background-color: #191210;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ring-2-inner-inner {
+    width: 45%;
+    height: 45%;
+    background-color: #84271C;
+    border-radius: 100%;
+}
+
+.ring-3 {
+    width: 32%;
+    height: 36%;
+    background-color: #ECA03D;
+    border-radius: 100vh 100vh 0% 0%;
+    margin: 3vh 0 0 -1.22vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.ring-3-inner {
+    width: 58%;
+    height: 58%;
+    background-color: #191210;
+    border-radius: 100vh 100vh 0% 0%;
+}
