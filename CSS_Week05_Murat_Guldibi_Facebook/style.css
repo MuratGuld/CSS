@@ -1,0 +1,203 @@
+* {
+    font-family: 'Verdana';
+    margin: 0;
+}
+
+/* I put the main content in a container class */
+.container {
+    background-color: #f0f2f5;
+    height: 58vh;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+/* Left side of the content */
+.left-content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inner-left-content {
+    height: 70%;
+    width: 85%;
+}
+
+
+.inner-left-content p {
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 80px 0 0;
+    opacity: 0.9;
+    text-align: left;
+}
+
+#facebook {
+    font-size: 3rem;
+    letter-spacing: -3px;
+    color: #1877f2;
+}
+
+/* Right side of the content */
+.right-content {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-right-content {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.7rem;
+    box-shadow: 2px 2px 10px gray;
+    height: 65%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right-content p {
+    height: 15%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 10px;
+    width: 75%;
+}
+
+/* inputs */
+#email, #passwort {
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 100%;
+    height: 2rem;
+    font-size: 0.85rem;
+    width: 98%;
+}
+
+#email:focus, #passwort:focus {
+    border: 2px solid #1877f2;
+    outline: none;
+}
+
+
+/* buttons */
+#apply {
+    background: #1877f2;
+    color: white;
+    font-size: 1.2vw;
+    border-radius: 7px;
+    display: block;
+    width: 100%;
+    height: 2.2rem;
+    text-align: center;
+    line-height: 35px;
+}
+
+#new-account {
+    background: #42b72a;
+    color: white;
+    font-size: 1.15vw;
+    border-radius: 7px;
+    display: block;
+    width: 70%;
+    height: 1.8rem;
+    text-align: center;
+    padding-top: 1.8vh;
+}
+
+div.line {
+    border-top: 1px solid rgb(163, 156, 156);
+    width: 98%;
+}
+
+#forget-link {
+    font-size: 0.8vw;
+    text-decoration: none;
+    color: #1877f2;
+}
+
+/* Footer area */
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#footer-container {
+    width: 70%;
+}
+
+footer a {
+    color: #9c9d9e;
+    font-size: 10px;
+}
+
+.languages {
+    margin: 0 0 5px 0;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid rgb(170, 170, 170);
+}
+
+.options {
+    padding:0;
+}
+
+.options li {
+    padding-right: 13px;
+}
+ul li, ul li a {
+    text-decoration: none;
+    display: inline;
+    list-style: none;
+}
+
+/* Responsive design */
+@media screen and (max-width:850px) {
+    #facebook {
+        font-size: 2.5rem;
+    }
+
+    .inner-left-content p {
+        font-size: 2vw;
+    }
+
+    .right-content p {
+        font-size: 1vw;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-content {
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        margin-left:-50px ;
+    }
+
+    .inner-left-content p {
+        display: none;
+    }
+
+    .right-content {
+        width: 90%;
+    }
+
+    #apply, #new-account {
+        font-size: 12.5px;
+    }
+}
