@@ -9,7 +9,7 @@ body {
     padding: 2% 20%;
 }
 
-/* row-1 */
+/* Here is first row. I used three inner divs to make this content */
 #row-1 {
     width: 100%;
     height: 20%;
@@ -18,6 +18,7 @@ body {
     justify-content: space-between;
 }
 
+/* That is the top left area of the site */
 #row-1-1 {
     width: 34%;
     background-color: white;
@@ -47,6 +48,7 @@ body {
 
 }
 
+/* Here is the playbutton. I used a circle and triangle to make a playbutton. */
 #row-1-2 {
     width: 45%;
     background-color: white;
@@ -73,6 +75,7 @@ body {
     clip-path: polygon(0 0, 0% 100%, 100% 53%);
 }
 
+/* Here is horizontal lines down */
 #row-1-3 {
     width: 17%;
     height: 162%;
@@ -91,7 +94,7 @@ body {
     margin-top: 15px;
 }
 
-/* row-2 */
+/* That's second row, the middle area of the content. I used three inner divs to make this content */
 #row-2 {
     width: 100%;
     height: 45%;
@@ -100,6 +103,7 @@ body {
     justify-content: space-between;
 }
 
+/* Here is mobile phone area */
 #row-2-1 {
     width: 15%;
     background-color: white;
@@ -138,6 +142,7 @@ body {
     z-index: 2;
 }
 
+/* Here are two triangles, a circle and three points */
 #row-2-2 {
     width: 47%;
     background-color: white;
@@ -205,6 +210,7 @@ body {
     border-radius: 100%;
 }
 
+/* Here are two opening buttons, two triangle and a circle  */
 #row-2-3 {
     width: 33%;
     display: flex;
@@ -315,7 +321,7 @@ body {
     border-radius: 100%;
 }
 
-/* row-3 */
+/* That's third row, the bottom area of the content. I used 2 inner divs to make here */
 #row-3 {
     width: 100%;
     height: 7%;
@@ -324,6 +330,7 @@ body {
     justify-content: space-between;
 }
 
+/* There is a straight line */
 #row-3-1 {
     width: 64%;
     background-color: white;
@@ -339,6 +346,7 @@ body {
     background-color: #86bdfb;
 }
 
+/* Here are icons */
 #row-3-2 {
     width: 33%;
     display: flex;
